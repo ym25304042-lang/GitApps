@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>名前と国籍を入力してください</h1>
-        <form method="posting" action="./test">
+        <form method="post" action="./test">
             ユーザー名<input type="text" name="name"><br>
             国籍　　　<input type="text" name="nationality"><br>
             <input type="submit" value="登録ボタン" />
