@@ -8,7 +8,7 @@
 <body>
     <h1>登録されたユーザー</h1>
     <table border="1">
-        <tr><th>ユーザー名</th><th>name</th></tr>
+        <tr><th>ユーザー名</th><th>国籍</th></tr>
         <tr><td>${name}</td><td>${nationality}</td></tr>
     </table>
 </body>
