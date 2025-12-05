@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <!-- 入力用JSP -->
+    <servlet>
+        <servlet-name>inputTest</servlet-name>
+        <jsp-file>/inputTest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>inputTest</servlet-name>
+        <url-pattern>/inputTest</url-pattern>
+    </servlet-mapping>
+
+    <!-- 入力処理用サーブレット -->
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>InputTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+    <!-- 結果表示JSP -->
+    <servlet>
+        <servlet-name>Result</servlet-name>
+        <jsp-file>/outputTest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Result</servlet-name>
+        <url-pattern>/Result</url-pattern>
+    </servlet-mapping>
+
+</web-app>
